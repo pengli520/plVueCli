@@ -1,0 +1,24 @@
+{
+  "name": "pl-vue-cli",
+  "version": "1.0.3",
+  "main": "./src/index.js",
+  "repository": "https://github.com/pengli520/plVueCli.git",
+  "author": "pengli520 <1157710763@qq.com>",
+  "license": "MIT",
+  "type": "module",
+  "bin": "bin/index.js",
+  "files": [
+    "src",
+    "yarn.lock",
+    "package.json"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve": "node ./src/index.js"
+  },
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "execa": "^5.1.1",
+    "inquirer": "^8.1.0"
+  }
+}
